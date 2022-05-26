@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jon Jeffers">
+    <title>My html/css cheatsheet project</title>
+    <link href="index.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div id="header">
+     <header>
+        <h1>~~~ Coding Cheatsheet ~~~</h1>
+    </header>   
+    </div>
+<div id="element_container">
+    
+    <!--Start HTML info-->
+    
+    <div id="elements_list"><h2>List of Elements</h2></div>
+    <h2 class="html_head">HTML</h2>
+    <div id="html_elements">
+        <h3>linking to css stylesheet</h3>
+        <p>&lt;link href="example.css" type="text/css" rel="stylesheet" /&gt;</p>
+        <p class="link_info">The "link" tag does NOT require a closing tag.</p>
+        <h3>Image sources</h3>
+        <p>&lt;img src="example-image.jpg" title="Title of image" alt="alt text here&gt;</p>
+        <h3 class="or">OR</h3>
+        <p>&lt;img src=http://www.example.com/example-image.jpg" title="Title of image" alt="alt text here&gt;</p>
+        <p class="link_info">The "img" tag does NOT require a closing tag</p>
+        <h3></h3>
+    </div>
+
+<table class="info-table">
+    <thead>
+        <tr class="define">
+            <th>Element</th>
+            <th>Element Meaning</th>
+            <th>Definition</th>
+        </tr>
+        
+    </thead>
+<tbody class="table_data">
+    <tr>
+        <td>html</td>
+        <td>HyperText Markup Language</td>
+        <td>HyperText Markup Language (HTML) is the set of markup symbols or codes 
+            inserted into a file intended for display on the Internet</td>
+    </tr>
+    <tr>
+        <td>href</td>
+        <td>HyperText REFerence</td>
+        <td>The href attribute specifies the URL of the page the link goes to.
+             If the href attribute is not present, 
+             the &lt;a&gt; tag will not be a hyperlink
+             <br>
+             <span class="example">Example: &lt;a href="https://www.codecademy.com"&gt;Sign up for 
+                 Codecademy!&lt;/a&gt;</span></td>
+    </tr>
+    <tr>
+        <td>&lt;a&gt;</td>
+        <td>Anchor tag</td>
+        <td>Content within each <a> should indicate the link's destination. 
+            If the href attribute is present, pressing the enter key while focused on 
+            the &lt;a&gt; element will activate it.
+            <br>
+        <span class="example">Example: &lt;a href="https://www.codecademy.com"&gt;Sign up for 
+            Codecademy!&lt;/a&gt;</span></td>
+    </tr>
+    <tr>
+        <td>class</td>
+        <td>Classification</td>
+        <td>The class attribute specifies one or more classnames for an element. 
+            The class attribute is mostly used to point to a class in a style sheet.
+            <br>
+        <span class="example">Example: &lt;h2 class="country"&gt;America&lt;/h2&gt;</span></td>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>Identification</td>
+        <td>The id attribute specifies a unique id for an HTML element. 
+            The value of the id attribute must be unique within the HTML document.
+            <br>
+        <span class="example">Example: &lt;h2 id="city"&gt;Appleton&lt;/h2&gt;</span></td>
+    </tr>
+    <tr>
+        <td>span</td>
+        <td>Span</td>
+        <td>The <span> HTML element is a generic inline container for phrasing content, 
+            which does not inherently represent anything. 
+            It can be used to group elements for styling purposes (using the class or id attributes.
+            <br>
+        <span class="example">Example: &lt;span class="example"&gt;Example&lt;/span&gt;</span></td>
+    </tr>
+    <tr>
+        <td>&lt;br&gt;</td>
+        <td>Line Break</td>
+        <td>The &lt;br&gt; HTML element produces a line break in text. It is useful for writing a poem
+            or an address, where the division of lines is signifigant.
+            <br>
+            <span class="example">Example: This line is here.<br>&lt;br&gt;<br>
+            
+                And this line is down here.</span>
+        </td>
+    </tr>
+</tbody>
+</table>
+    <br>
+    <br>
+
+<!--Start CSS info-->
+    
+    <h2 class="css_head">CSS</h2>
+    
+</div>
+    
+    <table class="info-table">
+        <thead>
+            <tr class="define">
+                <th>Element</th>
+                <th>Element Meaning</th>
+                <th>Definition</th>
+           
+        </thead>
+            </tr>
+            <tbody class="table_data">
+                <tr>
+                    <td>margin</td>
+                    <td>Margin</td>
+                    <td>In CSS, a margin is the space around and elements border. Put another way, the margin property 
+                        controls the space outside an element.
+                    </td>
+                </tr>
+                <tr>
+                    <td>padding</td>
+                    <td>Padding</td>
+                    <td>The padding property in CSS defines the innermost portion of the box model, 
+                    creating space around an element's content, inside of any defined margins and/or borders.</td>
+                </tr>
+                <tr>
+                    <td>border</td>
+                    <td>Border</td>
+                    <td>The CSS border is a shorthand property used to set the border on an element. 
+                    The CSS border properties are use to specify the style, 
+                    color and size of the border of an element.</td>
+                </tr>
+                <tr>
+                    <td>background-color</td>
+                    <td>Color of Background</td>
+                    <td>The background-color property sets the background color of an element. 
+                    The background of an element is the total size of the element, including padding and border (but not the margin). 
+                    Tip: Use a background color and a text color that makes the text easy to read.</td>
+                </tr>
+            </tbody>
+    </table>
+    <footer>
+        <h5>Most of the information shown was gathered from Codecademy.com and w3schools.com</h5>
+    </footer>
+</body>
+</html>
