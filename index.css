@@ -1,0 +1,124 @@
+header h1{
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin: 30px auto;
+    border: 3px dotted black;
+    border-radius: 75%;
+    
+    
+}
+
+#elements_list h2 {
+    text-align: center;
+    font-family: monospace;
+    background-color: black;
+    color: azure;
+}
+
+body {
+    background-color: #0f6e63;
+}
+
+#html_elements p {
+    font-family: monospace;
+    color: yellow;
+    margin: 20px 40px;
+    padding: 10px;
+    text-align: center;
+    border: black 2px dotted;
+}
+
+#html_elements h3 {
+    margin: 10px;
+}
+
+#html_elements .link_info {
+    color:rgb(8, 255, 255);
+    font-size: large;
+    font-style: italic;
+    padding: .5px;
+    margin: 10px;
+    border: none;
+    
+}
+
+#html_elements .or {
+    text-align: center;
+    padding: 0.5px;
+    
+}
+
+.html_head {
+    font-family: monospace;
+    font-size: 70px;
+    font-weight: 600;
+    color:#b45151;
+    margin: 10px auto;
+    padding: 10px 0px 10px 40px;
+    border: #b45151 2px solid;
+    height: 80px;
+    width: 190px;
+    position: relative;
+}
+
+.css_head {
+    font-family: monospace;
+    font-size: 70px;
+    font-weight: 600;
+    color:#b45151;
+    margin: 10px auto;
+    padding: 10px 0px 10px 40px;
+    border: #b45151 2px solid;
+    height: 80px;
+    width: 160px;
+    position: relative;
+    
+}
+
+.info-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: large;
+    font-family: monospace;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0 ,0.15);
+}
+
+.info-table thead tr {
+background-color: rgb(8, 255, 255);
+color: rgb(0, 0, 0);
+text-align: left;
+font-family: monospace;
+font-size: large;
+
+
+}
+
+.table_data td {
+font-family: monospace;
+color: yellow;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+td .example {
+    color: rgb(8, 255, 255);
+}
+.define th {
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+}
+h5 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
